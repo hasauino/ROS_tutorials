@@ -14,7 +14,7 @@ roscore
 
 
 
-## <div dir='rtl'>أوامر خاصة بالنودات ROS</div>
+## <div dir='rtl'>أوامر خاصة بالنودات</div>
 
 <div dir='rtl'>
 <ul>
@@ -28,7 +28,7 @@ roscore
 rosnode list
 ```
 
-## <div dir='rtl'>أوامر خاصة بالتوبيكات ROS</div>
+## <div dir='rtl'>أوامر خاصة بالتوبيكات</div>
 
 <div dir='rtl'>
 <ul>
