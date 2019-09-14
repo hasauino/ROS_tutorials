@@ -14,6 +14,7 @@ roscore
 
 
 
+## <div dir='rtl'>أوامر خاصة بالنودات ROS</div>
 
 <div dir='rtl'>
 <ul>
@@ -25,4 +26,18 @@ roscore
 
 ```
 rosnode list
+```
+
+## <div dir='rtl'>أوامر خاصة بالتوبيكات ROS</div>
+
+<div dir='rtl'>
+<ul>
+<li>
+عرض قائمة بالتوبيكات
+</li>
+</ul>
+</div>
+
+```
+rostopic list
 ```
