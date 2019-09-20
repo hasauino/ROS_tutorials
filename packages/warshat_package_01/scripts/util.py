@@ -7,7 +7,6 @@ from turtlesim.msg import Color
 
 class Turtle:
     def __init__(self):
-        rospy.init_node('turtle')
         self.__pub = rospy.Publisher('turtle1/cmd_vel', Twist, queue_size=1)
         rospy.Subscriber('turtle1/pose', Pose, callback=self.__cb_pose)
         rospy.Subscriber('/turtle1/color_sensor', Color, callback=self.__cb_color)

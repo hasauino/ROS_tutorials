@@ -3,15 +3,16 @@ import rospy
 from util import Turtle
 
 if __name__ == "__main__":
-    t1 = Turtle()
+    
 
-    r = 1.0 #m
-    w = 1.0 #rad/sec
+    rospy.init_node('my_node')
+    t1 = Turtle()
+    
+    r = rospy.get_param('radius', default=1.0)
+    w = rospy.get_param('ang_speed', default=1.0)
 
     v = w*r #m/s
 
     while not rospy.is_shutdown():
         t1.set_velocity(v, w)
-        print '-------------'
-        print t1.color
 
