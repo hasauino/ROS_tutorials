@@ -1,4 +1,4 @@
-#! /usr/bin/env python3
+#! /usr/bin/env python
 import rospy
 from util import Turtle
 
@@ -12,5 +12,5 @@ if __name__ == "__main__":
 
     while not rospy.is_shutdown():
         t1.set_velocity(v, w)
-        print('-------------')
-        print(t1.color)
+        print ('-------------')
+        print (t1.color)
