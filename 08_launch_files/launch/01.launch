@@ -1,0 +1,10 @@
+<launch>
+
+<param name="ang_speed" value="5.0" />
+<param name="radius" value="2.0" />
+
+<node pkg="turtlesim" type="turtlesim_node" name="turtle"/>
+
+<node pkg="warshat_package_01" type="commander.py" name="commander"/>
+
+</launch>
