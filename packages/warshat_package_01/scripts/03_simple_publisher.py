@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#! /usr/bin/env python3
 
 import rospy
 from std_msgs.msg import String
@@ -9,7 +9,6 @@ pub = rospy.Publisher('myTopic',  String, queue_size=10)
 rate = rospy.Rate(1)
 
 
-
 my_msg = String()
 
 my_msg.data = "warshat best channel"
@@ -17,4 +16,3 @@ my_msg.data = "warshat best channel"
 while not rospy.is_shutdown():
     pub.publish(my_msg)
     rate.sleep()
-    

@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#! /usr/bin/env python3
 
 import rospy
 from geometry_msgs.msg import Twist
@@ -14,4 +14,3 @@ class Turtle:
         self.__vel_msg.linear.x = v
         self.__vel_msg.angular.z = w
         self.__pub.publish(self.__vel_msg)
-

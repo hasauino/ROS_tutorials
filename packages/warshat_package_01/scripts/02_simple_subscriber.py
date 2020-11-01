@@ -1,9 +1,10 @@
-#! /usr/bin/env python
+#! /usr/bin/env python3
 import rospy
 from std_msgs.msg import String
 
+
 def cb(msg):
-    print msg.data
+    print(msg.data)
 
 
 rospy.init_node('mostame3')
